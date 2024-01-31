@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom spacing */
+.border-spacing {
+    border-spacing: 1rem; 
+  }
+  
+  /* Custom thickness */
+  .border-thickness {
+    border-width: 2px; 
+  }
