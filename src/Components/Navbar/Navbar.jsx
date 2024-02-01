@@ -36,7 +36,7 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full z-20 bg-white border-b-[1px] border-gray-500">
     <ul className="bg-blue-600 flex justify-between px-3 py-1 text-white gap-2 flex-wrap" >
         <li className="flex items-center justify-center gap-2"><span><HiOutlineMail/></span> example@gmail.com</li>
-        <li className="hidden md:flex  items-center justify-center gap-2"><span><FaPhoneAlt/></span> +91-1234567890</li>
+        <li className="hidden md:flex  items-center justify-center gap-2"><span><FaPhoneAlt/></span> +91-98359 42411 , +91-9430 455055 </li>
         <li className="hidden md:flex  items-center justify-center gap-2"><span><FaRegClock/></span> Opening: Mon-Sat: 09-07</li>
       </ul>
       <ul className="flex justify-between items-center px-3 py-1">

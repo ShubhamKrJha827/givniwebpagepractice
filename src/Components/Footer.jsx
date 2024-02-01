@@ -6,6 +6,7 @@ import { PiCopyrightThin } from "react-icons/pi";
 import { FiFacebook, FiTwitter } from "react-icons/fi";
 import { LiaGooglePlus } from "react-icons/lia";
 import { IoLogoInstagram } from "react-icons/io";
+import LogoImg from "../assets/logo-givni.jpg";
 
 const Footer = () => {
     
@@ -87,7 +88,14 @@ const Footer = () => {
     <footer className="flex flex-wrap px-8 gap-6 bg-[#B5E1D4] bg-opacity-50 py-4">
         <div className="">
         <section className="space-y-4 md:space-y-0 md:flex w-full justify-center flex-wrap">
-      <aside className="w-full md:w-4/12 ml-auto space-y-3">
+      <aside className="w-full md:w-3/12 ml-auto space-y-3">
+        <img src={LogoImg} alt="givni logo" className="rounded-full" />
+        <p className="text-blue-950 text-sm font-medium w-full">
+        Givni is the best design and development Company in Patna Bihar, Noida, Kolkata. Our Experts always best web,
+         App Service in Bangalore , Patna , Noida, Kolkata, Ranchi.
+            </p>
+      </aside>
+      <aside className="w-full md:w-2/12 ml-auto space-y-3">
         <h4 className="text-xl font-semibold text-blue-950">Company</h4>
         <ul className="flex flex-wrap gap-2 justify-center">
           {DiscoverItems.map((item, index) => (
@@ -97,7 +105,7 @@ const Footer = () => {
           ))}
         </ul>
       </aside>
-      <aside className="w-full md:w-4/12 ml-auto space-y-3">
+      <aside className="w-full md:w-2/12 ml-auto space-y-3">
         <h4 className="text-xl font-semibold text-blue-950">Support</h4>
         <ul className="flex flex-wrap gap-2">
           {studyMaterials.map((item, index) => (
@@ -107,7 +115,7 @@ const Footer = () => {
           ))}
         </ul>
       </aside>
-      <aside className="w-full md:w-4/12 ml-auto space-y-3">
+      <aside className="w-full md:w-3/12 ml-auto space-y-3">
         <h4 className="text-xl font-semibold text-blue-950">Contact Us</h4>
         <ul className="flex flex-wrap gap-2">
           {ContactItems.map((item, index) => (

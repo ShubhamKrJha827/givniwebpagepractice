@@ -22,6 +22,7 @@ const Expectations = () => {
     ]
   return (
    <Container>
+    <div className='bg-teal-100 p-4 rounded-md'>
      <h1 className='text-xl md:text-2xl font-bold text-center pb-4 text-gray-600'>We Always Try To Understand <br className='hidden md:block' />
       Users Expectation</h1>
       <div className='flex flex-wrap  justify-between'>
@@ -44,6 +45,7 @@ const Expectations = () => {
         rounded text-lg">CONTACT US</button> 
     </aside>
     </section>
+    </div>
     </Container>
   )
 }
